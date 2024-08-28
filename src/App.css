@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Background {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(128, 128, 128);
+    transition: 0.8s background-color ease-in-out;
+}
