@@ -12,13 +12,11 @@ export default function MainComponent({colorChangeFunction} : MainComponentProps
 
 
   async function NewDadJokeHandles() {
-    // Anim Effect
     setAnimate(true);
     setTimeout(() => {
       setAnimate(false);
     }, 220);
 
-    // API Call
     await axios.get("https://icanhazdadjoke.com/", {
       headers: {
         "Accept": "text/plain"
@@ -26,7 +24,6 @@ export default function MainComponent({colorChangeFunction} : MainComponentProps
     }).then(response => response.data)
       .then(data => {
 
-        // Setting the Background color randomly
         let newRGPColorString = colorChangeFunction();
         document.body.style.backgroundColor = newRGPColorString;
         const obj = document.getElementsByTagName('button');
@@ -46,5 +43,3 @@ export default function MainComponent({colorChangeFunction} : MainComponentProps
       </main> // 
   );
 }
-
-// npm run dev
