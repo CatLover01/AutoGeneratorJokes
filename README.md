@@ -1,6 +1,6 @@
 # Joke Generator App
 
-A simple web app built with TypeScript that generates random jokes using an external API. It features a button that fetches a new joke each time it's clicked. Hosted on GitHub Pages, deployed with Vite.
+A simple web app built with TypeScript that generates random jokes using an external API. It features a button that fetches a new joke each time it's clicked. Hosted on GitHub Pages, deployed with Vite: <https://catlover01.github.io/AutoGeneratorJokes/>
 
 ## Features
 - Fetches random jokes from an API.
