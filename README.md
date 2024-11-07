@@ -15,5 +15,3 @@ A simple web app built with TypeScript that generates random jokes using an exte
 
 ## License
 This project is licensed under the **WTFPL** (Do What The Fuck You Want To Public License).
-
-Feel free to do whatever the fuck you want with this code!
