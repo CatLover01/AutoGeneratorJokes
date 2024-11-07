@@ -4,14 +4,14 @@ A simple web app built with TypeScript that generates random jokes using an exte
 
 ## Features
 - Fetches random jokes from an API.
-- Displays jokes with a setup and punchline.
+- Displays jokes with a random colors.
 - Simple, one-button interface.
 
 ## Technologies Used
 - TypeScript
 - HTML/CSS
 - Vite for deployment
-- Joke API (official-joke-api.appspot.com)
+- Joke API (icanhazdadjoke.com)
 
 ## License
 This project is licensed under the **WTFPL** (Do What The Fuck You Want To Public License).
