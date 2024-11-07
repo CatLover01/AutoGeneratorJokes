@@ -4,7 +4,7 @@ A simple web app built with TypeScript that generates random jokes using an exte
 
 ## Features
 - Fetches random jokes from an API.
-- Displays jokes with a random colors.
+- Displays jokes with random background colors.
 - Simple, one-button interface.
 
 ## Technologies Used
