@@ -17,7 +17,7 @@ export default function MainComponent({colorChangeFunction} : MainComponentProps
       setAnimate(false);
     }, 220);
 
-    await axios.get("https://icanhazdadjoke.com/", {
+    axios.get("https://icanhazdadjoke.com/", {
       headers: {
         "Accept": "text/plain"
       }
